@@ -1,0 +1,108 @@
+/* DOCUMENTO CSS */ 
+
+body { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+font-family: Century Gothic; 
+background-color:#BF9A84;
+}
+
+header { 
+background-color: #B0B5BF; 
+height: 200px; 
+padding-top: 10px; 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+}
+
+header figure { 
+margin: 0px 0px 0px 0px;
+padding-top: 5px;
+
+}
+
+
+main { 
+min-height: 900px; 
+margin: 0; 
+padding: 0; 
+display: flex; 
+justify-content: center; 
+padding: 20px; 
+flex-wrap: wrap; 
+background-color: #cococo;
+}
+
+.boxlivro {
+width: 450px; 
+height: 210px; 
+background-color: #F0F0F9; 
+border-radius: 10px; 
+padding: 10px; 
+margin: 10px 10px 10px 50px; 
+display: flex; 
+}
+
+.boxlivro:hover{ 
+box-shadow: 6px 6px 10px #592B20AA; 
+}
+
+.boxlivro h2 {margin:0 0 10px 0; 
+padding: 0; 
+}
+
+.boxlivro figure {width: 141px; 
+height: 200px; 
+background-color: #e6e6e6; 
+margin: 5px 10px 10px 5px; 
+padding: 0; 
+border: 1px solid black; 
+}
+.boxlivro p {
+
+}
+
+.boxlivro span{
+font-size: 30px; 
+font-weight: 900;
+margin: 0 0 0 0px; 
+padding: 0; 
+}
+
+footer {
+background-color: #B0B5BF; 
+height: 100px; 
+padding-top: 5px; 
+text-align: center; 
+display: flex; 
+justify-content: left; 
+}
+footer p {
+	font-size: s0;
+	font-family: century gothic;
+	text-align: center;
+  margin: 40px;
+  color: #585858;
+}
+footer figure { 
+width: 70px; 
+height: 50px; 
+margin: 20px 40px 30px 100px; 
+padding: 50; 
+}
+
+.meubotao {
+ background-color:#BF9A84;
+: 5px;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 10px;
+ text-decoration: none;
+ margin: 4px 2px;
+ align-content:center;
+
+
+}
